@@ -63,7 +63,7 @@ public class ReplyMapperTests {
 	
 	@Test
 	public void testList() {
-		List<ReplyVO> replies = mapper.getListWithPaging(null, 28699L);
+		List<ReplyVO> replies = mapper.getListWithPaging(null, 28721L);
 		replies.forEach(reply -> log.info(reply));
 	}
 }
